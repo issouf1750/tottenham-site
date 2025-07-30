@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #001c58;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #001c58;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+  }  h3, p {
+    text-align: center;
+    margin-bottom: 10px;
+  }.trophee {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .trophee img {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .trophee .texte {
+    max-width: 500px;
+  }
+  
+  .trophee h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .trophee p {
+    margin: 5px 0 0;
+  }.bloc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .texte {
+    max-width: 500px;
+  }@media (max-width: 600px) {
+    .bloc, .trophee {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .image, .trophee img {
+      margin: 0 auto 10px;
+    }
+  
+    .texte {
+      max-width: 100%;
+    }
+  }.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    background-color: #001c58;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #003399;
+  }
+  
+  .reseaux {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .reseaux img {
+    margin: 0 10px;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  form button {
+    background-color: #001c58;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #0033a0;
+  }
+  
+  main h2 {
+    text-align: center;
+    color: #001c58;
+  }
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    align-items: center;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  form input, form textarea, form button {
+    width: 100%;
+  }
+}
